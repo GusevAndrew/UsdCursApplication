@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">UsdCursApplication</string>
+
+    <string name="common_retry">Попробовать снова</string>
+    <string name="common_date">Дата</string>
+    <string name="common_usd">USD</string>
+    <string name="common_rub">RUB</string>
+    <string name="common_one">1</string>
+
+    <string name="menu_curs">Курс USD</string>
+    <string name="menu_settings">Настройки</string>
+
+    <string name="curs_list_error_get_curs">Не удалось загрузить информацию</string>
+    <string name="curs_list_error_update_curs">Не удалось обновить информацию</string>
+    <string name="curs_list_one_rub">1 RUB</string>
+    <string name="curs_list_not_set">Не установлен</string>
+    <string name="curs_list_dynamic_title">Динамика курса доллара</string>
+    <string name="curs_list_format_usd">%1$.4f</string>
+    <string name="curs_list_for_current_day">Актуальный курс доллара, установлен: %1$s</string>
+    <string name="curs_list_format_usd_with_name">%1$.4f USD</string>
+
+    <string name="settings_time_notification">Время уведомления</string>
+    <string name="settings_curs_value">Желаемый курс</string>
+    <string name="settings_error_loading_content">Не удалось загрузить настройки приложения</string>
+    <string name="settings_activate_notification">Активировать уведомления</string>
+    <string name="settings_error_enable_notification">Не удалось активировать уведомления</string>
+    <string name="settings_error_enable_notification_time_not_set">Необходимо установить время уведомления</string>
+
+    <string name="default_notification_channel_id" translatable="false">notification_channel</string>
+    <string name="notification_visible_channel_name">Изменение курса доллара</string>
+    <string name="notification_curs_updated">Курс доллара изменился</string>
+    <string name="notification_curs_biggest">Курс доллара больше %1$.4f</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_weight="1"
+        android:textColor="@color/first_text_color"
+        android:textSize="18sp"
+        tools:text="01.06.2021"/>
+
+    <TextView
+        android:id="@+id/rubValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:text="@string/common_one"
+        android:textColor="@color/first_text_color"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/usdValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_weight="1"
+        android:gravity="end"
+        android:textColor="@color/first_text_color"
+        android:textSize="18sp"
+        tools:text = "70.1234"/>
+
+</LinearLayout>
